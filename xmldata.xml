@@ -1,0 +1,10 @@
+<domain type='kvm'>
+    <devices>
+        <interface type='network'>
+            <bandwidth>
+                <inbound average='12000'/>   Incomming traffic in KiB\s
+                <outbound average='12000'/>  Outgoing traffic in KiB\s
+            </bandwidth>
+        </interface>
+    </devices>
+</domain>

@@ -1,0 +1,19 @@
+{
+  "name": "vm-xmlparser",
+  "version": "1.0.0",
+  "description": "configure vm configration file using nodejs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "vm",
+    "xml"
+  ],
+  "author": "Nawfal Mahdi",
+  "license": "MIT",
+  "dependencies": {
+    "js2xmlparser": "^1.0.0",
+    "xml2js": "^0.4.12"
+  }
+}
