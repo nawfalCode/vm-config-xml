@@ -5,7 +5,11 @@
 var xml2json=require('xml2js');
 var js2xml=require('js2xmlparser');
 var fileSystem=require('fs');
-var parseString=xml2json.parseString(xmldata,function(err,data){
-   console.dir(data);
+var parser=xml2json.Parser();
+fileSystem.readFile(__dirname+"/xmldata.xml",function(err,xmldata){
+    parser.parseString(xmldata,function(err,data){
+        console.dir(data);
+});
+//var parseString=xml2json.
 
 });
