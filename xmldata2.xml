@@ -13,8 +13,8 @@
     </disk>
     <interface type='network'>
         <bandwidth>
-            <inbound average='12000'/>   Incomming traffic in KiB\s
-            <outbound average='12000'/>  Outgoing traffic in KiB\s
+            <inbound average='500'/>   Incomming traffic in KiB\s
+            <outbound average='1500'/>  Outgoing traffic in KiB\s
         </bandwidth>
     </interface>
     <interface type='bridge'>
